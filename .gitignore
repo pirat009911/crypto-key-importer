@@ -1,0 +1,72 @@
+ # --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+*.exe
+
+# --- Secrets ---
+.env
+*.env
+
+# --- IDEs & editors ---
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# --- OS-specific ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Git ---
+*.orig
+
+# --- Misc ---
+*.bak
+*.swp
+*.tmp
+*.old
+*.coverage
+coverage.xml
+htmlcov/
+
+
+# Registry or key files
+*.key
+*.cer
+*.crt
+*.pfx
+
